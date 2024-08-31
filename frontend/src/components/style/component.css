@@ -1,0 +1,62 @@
+/* Dash Cards Styling */
+.dashCards-container {
+  width: 350px;
+  height: 140px;
+  padding: 12px 12px 12px 20px;
+  border-radius: 10px;
+}
+.h-Two-heading,
+.h-Two-heading-total {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+.h-One-heading {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 28px;
+}
+.h-Four-heading {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+/* Total Cards Styling */
+.totalCards-container {
+  width: 350px;
+  height: 190px;
+  padding: 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.total-left-div {
+  width: 155px;
+  height: fit-content;
+}
+.h-One-heading-total {
+  font-size: 42px;
+  font-weight: 500;
+  line-height: 28px;
+}
+.total-left-lower-div {
+  color: #686868;
+}
+.total-right-div {
+  width: 115px;
+  height: 121px;
+}
+.h-Five-heading-total,
+.h-Five-heading-total-right {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+}
+.h-Five-heading-total-right {
+  padding: 0px 10px;
+  border-radius: 4px;
+  background-color: #ffefe7;
+}
