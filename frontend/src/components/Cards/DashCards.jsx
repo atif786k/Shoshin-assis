@@ -1,5 +1,5 @@
 import React from 'react';
-import "./style/component.css";
+import "../style/component.css";
 
 const DashCards = (props) => {
   return (
