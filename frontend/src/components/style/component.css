@@ -198,6 +198,22 @@
 }
 @media (min-width: 1024px) {
   .upcoming-container {
+    width: 374px;
+    height: 319px;
+  }
+  .upcoming-list{
+    overflow-y: hidden;
+  }
+  .list-items-upcoming {
+    width: 340px;
+    padding: 10px 16px;
+  }
+  .see-all-upcoming {
+    width: 374px;
+  }
+}
+@media (min-width: 1280px) {
+  .upcoming-container {
     width: 427px;
     height: 424px;
   }
@@ -255,6 +271,23 @@
 }
 @media (min-width: 1024px) {
   .recent-container {
+    width: 250px;
+    height: 319px;
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .recent-nav-title {
+    width: 250px;
+    min-height: 48px;
+    padding: 10px 10px 10px 24px;
+  }
+  .h-Two-heading-recent {
+    font-size: 18px;
+    line-height: 28px;
+  }
+}
+@media (min-width: 1280px) {
+  .recent-container {
     width: 427px;
     height: 258px;
     font-size: 18px;
@@ -262,12 +295,6 @@
   }
   .recent-nav-title {
     width: 427px;
-    min-height: 48px;
-    padding: 10px 10px 10px 24px;
-  }
-  .h-Two-heading-recent {
-    font-size: 18px;
-    line-height: 28px;
   }
   .recent-second-div {
     display: flex;

@@ -13,7 +13,7 @@ const Recent = () => {
           everything is right.
         </h4>
       </div>
-      <div className="recent-second-div px-5 space-y-[18px] lg:space-y-0">
+      <div className="recent-second-div px-5 space-y-[18px] xl:space-y-0">
         <h4 className="h-Four-heading-recent">Today you make 12 Activity</h4>
         <button className="recent-btn">See All Activity</button>
       </div>
