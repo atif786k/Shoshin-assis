@@ -200,6 +200,7 @@
   .upcoming-container {
     width: 374px;
     height: 319px;
+    overflow: hidden;
   }
   .upcoming-list{
     overflow-y: hidden;
@@ -210,6 +211,8 @@
   }
   .see-all-upcoming {
     width: 374px;
+    background-color: #ffffff;
+    z-index: 1;
   }
 }
 @media (min-width: 1280px) {

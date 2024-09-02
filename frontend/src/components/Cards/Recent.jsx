@@ -3,7 +3,7 @@ import "../style/component.css";
 
 const Recent = () => {
   return (
-    <div className="recent-container space-y-6">
+    <div className="recent-container space-y-6 lg:space-y-4 xl:space-y-6">
       <nav className="recent-nav-title">Recently Activity</nav>
       <div className="recent-first-div px-5 space-y-[7px]">
         <h5 className="h-Five-heading-recent">10.40 AM, Fri 10 Sept 2021</h5>
